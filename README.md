@@ -2,6 +2,8 @@
 
 >FrontEnd part of the site is an online store. The page was made up using the `Gulp` framework and `less` files. All page components are divided into sections, which are separately produced out. Small elements such as: buttons, headers, text, unit of goods... were also produced out separately.
 
+>All page elements are responsive
+
 **Libraries**:
 - gulp
 - node js
