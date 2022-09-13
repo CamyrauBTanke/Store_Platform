@@ -6,13 +6,13 @@
 - gulp
 - node js
 
-## Setup
+### Setup
 To install libraries with `npm install` use:
 ```
 npm install --global gulp-cli
 ```
 
-## Launch of the project
+### Launch of the project
 ```
 npm i
 
