@@ -14,9 +14,9 @@ npm install --global gulp-cli
 
 ### Launch of the project
 ```
-npm i
+1) npm i
 
-gulp
+2) gulp
 ```
 
 
