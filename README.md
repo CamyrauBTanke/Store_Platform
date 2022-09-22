@@ -19,3 +19,4 @@ gulp
 <img src="https://github.com/CamyrauBTanke/CamyrauBTanke/blob/main/img/projects/store_platform-2.png">
 <img src="https://github.com/CamyrauBTanke/CamyrauBTanke/blob/main/img/projects/store_platform-3.png">
 <img src="https://github.com/CamyrauBTanke/CamyrauBTanke/blob/main/img/projects/store_platform-4.png">
+<img src="https://github.com/CamyrauBTanke/CamyrauBTanke/blob/main/img/projects/store_platform-5.png">
