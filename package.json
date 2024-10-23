@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"author": "CamyrauBTanke",
+	"author": "samurai-in-tank",
 	"license": "MIT",
 	"scripts": {
 		"start": "set NODE_OPTIONS=--openssl-legacy-provider && gulp",

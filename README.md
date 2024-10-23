@@ -1,4 +1,4 @@
-# Store_Platform-layout-WebApp
+# Store Platform - layout
 ### Short description
 >Layout of the site is an online store. The page was made up using the `Gulp` framework and `less` files. All page components are divided into sections, which are separately produced out. Small elements such as: buttons, headers, text, unit of goods... were also produced out separately `(All page elements are responsive)`.
 
@@ -12,7 +12,7 @@ npm install --global gulp-cli
 ```
 npm i
 
-gulp
+npm start
 ```
 ## Photos
 <img src="https://github.com/CamyrauBTanke/CamyrauBTanke/blob/main/img/projects/store_platform-1.png">
