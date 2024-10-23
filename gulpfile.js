@@ -43,7 +43,7 @@ function scripts() {
 						test: /\.(ts)$/,
 						exclude: /(node_modules)/,
 						loader: 'babel-loader',
-						query: {
+						options: {
 							presets: ['@babel/preset-typescript'],
 							plugins: ['babel-plugin-root-import']
 						}
@@ -51,12 +51,38 @@ function scripts() {
 				]
 			}
 		})).on('error', function handleError() {
-			this.emit('end')
+			this.emit('end');
 		})
 		.pipe(rename('app.min.js'))
 		.pipe(dest('dist/js'))
-		.pipe(browserSync.stream())
+		.pipe(browserSync.stream());
 }
+
+// function scripts() {
+// 	return src(['app/app.ts', 'app/components/**/*.ts'])
+// 		.pipe(webpack({
+// 			mode: 'production',
+// 			performance: { hints: false },
+// 			module: {
+// 				rules: [
+// 					{
+// 						test: /\.(ts)$/,
+// 						exclude: /(node_modules)/,
+// 						loader: 'babel-loader',
+// 						query: {
+// 							presets: ['@babel/preset-typescript'],
+// 							plugins: ['babel-plugin-root-import']
+// 						}
+// 					}
+// 				]
+// 			}
+// 		})).on('error', function handleError() {
+// 			this.emit('end')
+// 		})
+// 		.pipe(rename('app.min.js'))
+// 		.pipe(dest('dist/js'))
+// 		.pipe(browserSync.stream())
+// }
 
 function styles() {
 	return src([`app/app.${preprocessor}`])

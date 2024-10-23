@@ -6,8 +6,8 @@
 	"author": "CamyrauBTanke",
 	"license": "MIT",
 	"scripts": {
-		"start": "gulp",
-		"build": "gulp build"
+		"start": "set NODE_OPTIONS=--openssl-legacy-provider && gulp",
+		"build": "set NODE_OPTIONS=--openssl-legacy-provider && gulp build"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.14.8",
@@ -33,10 +33,12 @@
 		"gulp-sass-glob": "^1.1.0",
 		"gulp-stylus": "^2.7.0",
 		"sass": "^1.36.0",
-		"webpack-stream": "^6.1.2"
+		"webpack-stream": "^7.0.0"
 	},
 	"dependencies": {
 		"gulp-cli": "^2.3.0",
-		"jquery": "^3.6.0"
+		"jquery": "^3.6.0",
+		"webpack": "^5.95.0",
+		"webpack-cli": "^5.1.4"
 	}
 }
